@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('file:///C:/Users/user/Desktop/HTML/login%20page/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login-box
+{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+h2
+{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.input-box
+{
+    padding: 1px;
+    position: absolute;
+   
+}
+.lbl
+{
+    color: whitesmoke;
+}
+.btn-primary
+{
+    background: white;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+
+}
